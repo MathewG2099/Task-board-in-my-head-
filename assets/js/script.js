@@ -36,3 +36,11 @@ function handleDrop(event, ui) {
 $(document).ready(function () {
 
 });
+ 
+document.getElementById('btn btn-success').addEventListener('click',function() {
+    document.querySelector('.bg-modal').style.display = 'flex';
+    });
+
+    document.querySelector('.close').addEventListener('click', function(){
+        document.querySelector('.bg-modal').style.display = 'none'
+    })
